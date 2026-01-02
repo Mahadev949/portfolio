@@ -1,10 +1,10 @@
 {
   "personal": {
-    "name": "Codeist",
+    "name": "Mahadev",
     "role": "Student | Aspiring Software Developer",
     "tagline": "Building logical, scalable, real-world software solutions.",
     "location": "India",
-    "email": "yourmail@example.com"
+    "email": "polanamahadev@gmail.com"
   },
 
   "about": {
@@ -12,75 +12,104 @@
   },
 
   "skills": {
-    "Programming Languages": ["Java", "Python", "JavaScript", "SQL"],
+    "Programming Languages": ["Java", "Python", "JavaScript"],
     "Frontend": ["HTML", "CSS", "Basic React"],
-    "Backend": ["Firebase", "Supabase", "Node.js (Basic)"],
-    "Mobile": ["Android (Java)", "Android Studio"],
-    "Databases": ["MySQL", "Firebase Firestore"],
-    "Concepts": ["OOP", "REST APIs", "Authentication", "DSA Basics"],
-    "Tools": ["Git", "GitHub", "VS Code", "Android Studio"]
+    "Backend": ["Node.js (Basic)"],
+    "Mobile": [ "Android Studio"],
+    "Databases": ["MySQL", "Firebase Firestore", "Supabase"],
+    "Concepts": ["OOP",  "DSA Basics"],
+    "Tools": ["GitHub", "VS Code", "Android Studio","Pycharm","Cursor"]
   },
 
   "projects": [
     {
-      "title": "Timetable & Invigilation Management System",
-      "description": "A real-world system to manage class timetables, labs, faculty mapping, and invigilation with notifications.",
-      "tech": ["Java", "Firebase", "Android", "OneSignal"],
-      "features": [
-        "Faculty-subject mapping with constraints",
-        "Lab span validation and scheduling",
-        "Admin-controlled scheduling interface",
-        "Push notifications for updates"
-      ],
-      "github": "https://github.com/yourusername/timetable-system"
+      "title": "Campus Timetable Management System",
+      "type": "Android Applications + Web Dashboard",
+      "tech": ["Java", "Firebase", "JavaScript", "Android", "HTML", "CSS"],
+      "description": "A role-based timetable and invigilation management system designed for a college environment, consisting of two Android applications and one web dashboard.",
+      "modules": {
+        "studentApp": {
+          "name": "Student Android App",
+          "points": [
+            "Developed an Android application for students to view class timetables in real time",
+            "Implemented editable timetable cells, subject dialogs, and customizable UI themes",
+            "Added JSON import/export functionality and persistent storage using SharedPreferences",
+            "Used by 50+ students, reducing manual timetable handling by approximately 70%"
+          ]
+        },
+        "facultyApp": {
+          "name": "Faculty Android App",
+          "points": [
+            "Built a faculty-specific Android app to manage personal timetables and invigilation schedules",
+            "Implemented faculty ID–based subject mapping supporting multiple subjects and lab sessions per faculty",
+            "Ensured accurate synchronization of schedules across classes and departments"
+          ]
+        },
+        "adminDashboard": {
+          "name": "Admin / Timetable Designer Web Dashboard",
+          "points": [
+            "Developed a web interface for course mapping, faculty assignment, and timetable design",
+            "Implemented lab span logic, lunch-break validation, conflict detection, and multi-faculty subject handling",
+            "Optimized performance using progressive data loading for large datasets"
+          ]
+        }
+      }
     },
     {
-      "title": "Expense Tracker Mobile App",
-      "description": "An Android application for tracking personal expenses with visualization and budgeting features.",
-      "tech": ["Java", "Android", "SQLite", "MPAndroidChart"],
+      "title": "To-Do List Web Application",
+      "type": "Web Application",
+      "tech": ["HTML", "CSS", "JavaScript", "React.js", "Bootstrap"],
+      "description": "A responsive task management web application with component-based architecture.",
       "features": [
-        "Categorize expenses with custom tags",
-        "Visual charts for spending patterns",
-        "Monthly budget setting and tracking",
-        "Data export to CSV functionality"
-      ],
-      "github": "https://github.com/yourusername/expense-tracker"
+        "Task creation with title and description",
+        "State persistence for saved tasks",
+        "Responsive UI built with reusable components",
+        "Designed for maintainability and scalability"
+      ]
     },
     {
-      "title": "Portfolio Website",
-      "description": "A responsive personal portfolio website with dynamic content loading from JSON.",
-      "tech": ["HTML", "CSS", "JavaScript", "JSON"],
+      "title": "Tic Tac Toe Game",
+      "type": "Desktop Application & Web Application",
+      "tech": ["Python", "Java"],
+      "description": "A two-player interactive Tic Tac Toe game implemented for both desktop and web environments.",
       "features": [
-        "Fully responsive design",
-        "Dynamic content from JSON file",
-        "Smooth animations and transitions",
-        "Clean, accessible code structure"
-      ],
-      "github": "https://github.com/yourusername/portfolio"
+        "Win and draw detection logic",
+        "Reset and replay functionality",
+        "Tested by over 20 users for usability and correctness"
+      ]
+    },
+    {
+      "title": "Universal Unit Converter",
+      "type": "GUI Application",
+      "tech": ["Python"],
+      "description": "A GUI-based unit conversion tool supporting a wide range of unit categories.",
+      "features": [
+        "Supports 250+ unit types across multiple categories",
+        "Improved conversion efficiency compared to manual calculations",
+        "User-friendly graphical interface"
+      ]
     }
   ],
 
   "experience": [
     {
-      "title": "Student Developer",
-      "organization": "Academic & Personal Projects",
-      "duration": "2024 – Present",
+      "title": "Software Developer – Academic & Personal Projects",
+      "organization": "Self-Directed & College Projects",
+      "location": "Machilipatnam, Andhra Pradesh",
+      "duration": "2022 – Present",
       "points": [
-        "Built Android and web applications for real-world problems",
-        "Worked with Firebase and Supabase for backend services",
-        "Designed logic-heavy features like scheduling and validation systems",
-        "Implemented clean architecture patterns in projects"
-      ]
-    },
-    {
-      "title": "Programming Club Member",
-      "organization": "College Programming Club",
-      "duration": "2023 – 2024",
-      "points": [
-        "Participated in coding competitions and hackathons",
-        "Collaborated on group projects with version control",
-        "Learned best practices in software development",
-        "Mentored junior students in programming basics"
+        "Designed and developed full-stack applications using Java, Python, JavaScript, React.js, and Firebase",
+        "Built production-like Android applications with separate student and faculty roles for real-world usage",
+        "Implemented complex timetable scheduling logic including lab span continuity, lunch-break constraints, and multi-faculty subject mapping",
+        "Developed REST-style data flows and role-based access control for admin, faculty, and student users",
+        "Designed scalable data models in Firebase and optimized read/write operations for large datasets",
+        "Implemented persistent local storage, JSON import/export, and real-time data synchronization",
+        "Applied problem-solving and algorithmic thinking to handle conflict detection and validation rules",
+        "Improved application performance and usability through progressive data loading techniques",
+        "Tested applications with real users (50+ students), collected feedback, and iteratively refined features",
+        "Maintained clean, modular, and reusable code following object-oriented principles",
+        "Used Git and GitHub for version control and incremental feature development",
+        "Actively participated in hackathons and coding competitions, applying time-bound problem-solving skills"
       ]
     }
   ],
@@ -101,8 +130,8 @@
   ],
 
   "socials": {
-    "github": "https://github.com/yourusername",
-    "linkedin": "https://linkedin.com/in/yourusername",
+    "github": "https://github.com/Mahadev949",
+    "linkedin": "https://www.linkedin.com/in/mahadev-polana-a2b842247/",
     "resume": "/assets/resume.pdf"
   }
 }
