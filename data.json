@@ -1,0 +1,108 @@
+{
+  "personal": {
+    "name": "Codeist",
+    "role": "Student | Aspiring Software Developer",
+    "tagline": "Building logical, scalable, real-world software solutions.",
+    "location": "India",
+    "email": "yourmail@example.com"
+  },
+
+  "about": {
+    "description": "I am a student developer focused on building practical software solutions. I work mainly with Java, Android, and web technologies, and I enjoy solving logical problems and understanding how systems work end-to-end. My approach is to learn by building real applications that solve actual problems, with a focus on clean architecture and maintainable code."
+  },
+
+  "skills": {
+    "Programming Languages": ["Java", "Python", "JavaScript", "SQL"],
+    "Frontend": ["HTML", "CSS", "Basic React"],
+    "Backend": ["Firebase", "Supabase", "Node.js (Basic)"],
+    "Mobile": ["Android (Java)", "Android Studio"],
+    "Databases": ["MySQL", "Firebase Firestore"],
+    "Concepts": ["OOP", "REST APIs", "Authentication", "DSA Basics"],
+    "Tools": ["Git", "GitHub", "VS Code", "Android Studio"]
+  },
+
+  "projects": [
+    {
+      "title": "Timetable & Invigilation Management System",
+      "description": "A real-world system to manage class timetables, labs, faculty mapping, and invigilation with notifications.",
+      "tech": ["Java", "Firebase", "Android", "OneSignal"],
+      "features": [
+        "Faculty-subject mapping with constraints",
+        "Lab span validation and scheduling",
+        "Admin-controlled scheduling interface",
+        "Push notifications for updates"
+      ],
+      "github": "https://github.com/yourusername/timetable-system"
+    },
+    {
+      "title": "Expense Tracker Mobile App",
+      "description": "An Android application for tracking personal expenses with visualization and budgeting features.",
+      "tech": ["Java", "Android", "SQLite", "MPAndroidChart"],
+      "features": [
+        "Categorize expenses with custom tags",
+        "Visual charts for spending patterns",
+        "Monthly budget setting and tracking",
+        "Data export to CSV functionality"
+      ],
+      "github": "https://github.com/yourusername/expense-tracker"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "A responsive personal portfolio website with dynamic content loading from JSON.",
+      "tech": ["HTML", "CSS", "JavaScript", "JSON"],
+      "features": [
+        "Fully responsive design",
+        "Dynamic content from JSON file",
+        "Smooth animations and transitions",
+        "Clean, accessible code structure"
+      ],
+      "github": "https://github.com/yourusername/portfolio"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Student Developer",
+      "organization": "Academic & Personal Projects",
+      "duration": "2024 – Present",
+      "points": [
+        "Built Android and web applications for real-world problems",
+        "Worked with Firebase and Supabase for backend services",
+        "Designed logic-heavy features like scheduling and validation systems",
+        "Implemented clean architecture patterns in projects"
+      ]
+    },
+    {
+      "title": "Programming Club Member",
+      "organization": "College Programming Club",
+      "duration": "2023 – 2024",
+      "points": [
+        "Participated in coding competitions and hackathons",
+        "Collaborated on group projects with version control",
+        "Learned best practices in software development",
+        "Mentored junior students in programming basics"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Computer Science & Engineering",
+      "institution": "Indian Institute of Technology",
+      "duration": "2022 – 2026"
+    },
+    {
+      "degree": "Higher Secondary",
+      "field": "Science (PCM)",
+      "institution": "Delhi Public School",
+      "duration": "2020 – 2022"
+    }
+  ],
+
+  "socials": {
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "resume": "/assets/resume.pdf"
+  }
+}
